@@ -15,8 +15,9 @@ module tt_um_74181 (
     input  wire       clk,      // clock
     input  wire       rst_n     // reset_n - low to reset
 );
-
-
+    wire [3:0] A, B, S;
+    wire Cnb, M;
+    assign ui_in = []
   assign uo_out  = ui_in + uio_in;  // Example: ou_out is the sum of ui_in and uio_in
   assign uio_out = 0;
   assign uio_oe  = 0;

@@ -23,12 +23,12 @@ module tt_um_74181 (
     //Assigning the input A and B pins
     assign {A,B} = ui_in;
     assign uio_out = {S,CNb,M,0,0}; // Setting bidirectional bits as outputs
-    assign uio_oe = 0; // Output enable = 0
+    assign uio_oe = 8'b0; // Output enable = 0
 
     
     assign uo_out = {F,AEB,X,Y,Cn4b}  // Example: ou_out is the sum of ui_in and uio_in
 
-    wire [3:0] E, D, C, Bb;
+    wire [3:0] E, D, C, Bb; // Assign temporary modules
     Emodule Emod1 (A, B, S, E);
     Dmodule Dmod2 (A, B, S, D);
     CLAmodule CLAmod3(E, D, CNb, C, X, Y, CN4b);

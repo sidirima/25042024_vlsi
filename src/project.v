@@ -26,7 +26,7 @@ module tt_um_74181 (
     assign uio_oe = 8'b0; // Output enable = 0
 
     
-    assign uo_out = {F,AEB,X,Y,Cn4b}  // Example: ou_out is the sum of ui_in and uio_in
+    assign uo_out = {F,AEB,X,Y,Cn4b}; // Example: ou_out is the sum of ui_in and uio_in
 
     wire [3:0] E, D, C, Bb; // Assign temporary modules
     Emodule Emod1 (A, B, S, E);

@@ -21,10 +21,10 @@ module tt_um_74181 (
     wire X,Y,CN4b,AEB;
 
     //Assigning the input A and B pins
+    assign uio_out = 8'b0;
     assign {A,B} = ui_in;
-    assign {S,CNb,M} = uio_out; // Setting bidirectional bits as outputs
-    assign uio_out[1] = 0;
-    assign uio_out[0] = 0;
+    assign {S,CNb,M} = uio_out; // Setting bidirectional bits as inputs
+    assign uio_out[1:0] = 2'b0;
     assign uio_oe = 8'b0; // Output enable = 0
 
     

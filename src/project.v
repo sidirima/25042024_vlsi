@@ -22,7 +22,7 @@ module tt_um_74181 (
 
     //Assigning the input A and B pins
     assign {A,B} = ui_in;
-    assign uio_out = {S,CNb,M,0,0}; // Setting bidirectional bits as outputs
+    assign {S,CNb,M,0,0} = uio_out; // Setting bidirectional bits as outputs
     assign uio_oe = 8'b0; // Output enable = 0
 
     

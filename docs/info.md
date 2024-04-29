@@ -9,11 +9,11 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This is a 74LS181 4-bit Arithmetic Logic Unit 
 
 ## How to test
 
-Explain how to use your project
+Use it as a test for school
 
 ## External hardware
 

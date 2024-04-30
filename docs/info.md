@@ -9,7 +9,8 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-This is a 74LS181 4-bit Arithmetic Logic Unit 
+This is a 74LS181 4-bit Arithmetic Logic Unit. The code for it is in Verilog, tested with Spartan-II XC2S100 FPGA. It works correctly
+as it is documented in the SN74LS181 datasheet by Texas Instruments.
 
 ## How to test
 

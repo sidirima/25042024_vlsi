@@ -1,6 +1,6 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/test/badge.svg)
 
-# Tiny Tapeout Verilog Project Template
+# Υλοποίηση Αριθμητικής Λογικής Μονάδας 4-bit (74LS181)
 
 - [Read the documentation for project](docs/info.md)
 
